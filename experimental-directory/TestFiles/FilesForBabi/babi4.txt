@@ -1,0 +1,2 @@
+The hallway is east of the bathroom.
+The bedroom is west of the bathroom.
