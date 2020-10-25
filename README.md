@@ -17,6 +17,8 @@ In addition, we will want to be able to input questions as input and obtain answ
 **2: Set up Xclingo extension**
 --Download Xclingo from [here](https://github.com/bramucas/xclingo) and place that xclingo directory in the root of Text2ALM
 
+-- Go into ```experimental-directory``` and copy the xclingo.sh file and paste it into the Text2ALM root.
+
 -- Go into ```Text2ALM/CALM/sparc``` and copy the sparc.jar file and paste it into the Text2ALM root.
 
 -- ```mkdir Temp``` and ```mkdir XclingoOutput``` in the Text2ALM root.
