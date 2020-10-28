@@ -28,6 +28,6 @@ In addition, we will want to be able to input questions as input and obtain answ
 **3: Execute xclingo.sh in Text2ALM root**
 --The arguments will be the natural language .txt file you wish to analyze and the trace rules .lp file you wish to use to define trace rules
     
---Example: ```./xclingo.sh TestFiles/test1.txt trace-rules-1.lp```
+--Example: ```./xclingo.sh TestFiles/test1.txt trace-rules1.lp```
     
 --The output will be found in the XclingoOutput folder and will be of file extension type .tp.xlp
