@@ -15,7 +15,7 @@ In addition, we will want to be able to input questions as input and obtain answ
 -- Follow the instructions found [here](https://github.com/cdolson19/Text2ALM/wiki), however, no need to run the Text2ALM commands.
 
 **2: Set up Xclingo extension**
---Clone Xclingo repo from [here](https://github.com/bramucas/xclingo) and place that xclingo directory in the root of Text2ALM. Make sure you have the python requirements in their readme met.
+--Make sure you have the python requirements in the met for the xclingo repository [here](https://github.com/bramucas/xclingo).
 
 -- Go into ```experimental-directory``` and copy the xclingo.sh file and paste it into the Text2ALM root.
 
