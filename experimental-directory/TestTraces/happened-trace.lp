@@ -1,3 +1,3 @@
-%!trace {"% % % at time point %", X0', A, B', X2} happened(X1,X2) : is_a(X1, X1'), event_agent(X1, X0), is_a(X0, X0'), link(X1', A), actions_vn_destination(X1,B), is_a(B, B').
-%!trace {"% % % at time point %", X0', A, B', X2} happened(X1,X2) : is_a(X1, X1'), event_recipient(X1, X0), is_a(X0, X0'), link(X1', A), actions_vn_theme(X1,B), is_a(B, B').
-%!show_trace happened(X1,X2).
+%!trace {"% % % at time point %", AgentName, ActionVerb, ActionObjectName, TimePoint} happened(EventE,TimePoint) : is_a(EventE, EventType), event_agent(EventE, AgentR), is_a(AgentR, AgentName), link(EventType, ActionVerb), actions_vn_destination(EventE, ActionObjectR), is_a(ActionObjectR, ActionObjectName).
+%!trace {"% % % at time point %", AgentName, ActionVerb, ActionObjectName, TimePoint} happened(EventE,TimePoint) : is_a(EventE, EventType), event_recipient(EventE, AgentR), is_a(AgentR, AgentName), link(EventType, ActionVerb), actions_vn_theme(EventE, ActionObjectR), is_a(ActionObjectR, ActionObjectName).
+%!show_trace happened(EventE, TimePoint).
